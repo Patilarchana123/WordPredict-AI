@@ -61,23 +61,38 @@ short
 
 ## 🧠 Model Architecture
 
-Input Sequence
-      │
-      ▼
-Embedding Layer
-      │
-      ▼
-LSTM Layer — 128 Units
-      │
-      ▼
-Dense Layer
-      │
-      ▼
-Softmax Output
-      │
-      ▼
-Predicted Next Token
-
+```text
+┌─────────────────────┐
+│   Input Sequence    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  Embedding Layer    │
+│    50 Dimensions    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│   LSTM Layer        │
+│     128 Units       │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│    Dense Layer      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│   Softmax Output    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Predicted Next Word │
+└─────────────────────┘
+```
 
 | Component               | Configuration             |
 | ----------------------- | ------------------------- |
@@ -96,44 +111,33 @@ The LSTM architecture is used to capture sequential dependencies and contextual 
 The model is trained on a quote-based textual corpus containing 3,038 records. After preprocessing and sequence construction, the corpus generates approximately 85K supervised training sequences for neural language modeling.
 
 ## ✨ Key Features
-🔹 Context-aware next-word prediction
-🔹 NLP-based text preprocessing and tokenization
-🔹 Sequential data construction for language modeling
-🔹 Word embedding representation
-🔹 LSTM-based sequence learning
-🔹 Softmax-based probabilistic word prediction
-🔹 Multi-word text generation
-🔹 Saved model and tokenizer for inference
-🔹 Interactive Streamlit deployment
+
+- 🔹 **Context-aware next-word prediction**
+- 🔹 **NLP-based text preprocessing and tokenization**
+- 🔹 **Sequential data construction for language modeling**
+- 🔹 **Word embedding representation**
+- 🔹 **LSTM-based sequence learning**
+- 🔹 **Softmax-based probabilistic word prediction**
+- 🔹 **Multi-word text generation**
+- 🔹 **Saved model and tokenizer for inference**
+- 🔹 **Interactive Streamlit deployment**
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Programming Language:
-Python
-
-Deep Learning:
-TensorFlow • Keras • LSTM • SimpleRNN
-
-Natural Language Processing:
-Tokenization • Sequence Modeling • Word Embeddings
-
-Data Processing:
-NumPy • Pandas
-
-Visualization:
-Matplotlib • Seaborn
-
-Deployment:
-Streamlit
-
-Development Environment:
-Google Colab • Jupyter Notebook • VS Code
+- **Programming Language:** Python
+- **Deep Learning:** TensorFlow • Keras • LSTM • SimpleRNN
+- **Natural Language Processing:** Tokenization • Sequence Modeling • Word Embeddings
+- **Data Processing:** NumPy • Pandas
+- **Visualization:** Matplotlib • Seaborn
+- **Deployment:** Streamlit
+- **Development Environment:** Google Colab • Jupyter Notebook • VS Code
 
 ## 🔮 Future Scope
-🔹 Top-K probabilistic predictions
-🔹 Temperature-based text sampling
-🔹 Bidirectional LSTM and GRU architectures
-🔹 Attention-based sequence modeling
-🔹 Transformer-based language models
-🔹 Larger and domain-diverse text corpora
+
+- 🔹 **Top-K probabilistic predictions**
+- 🔹 **Temperature-based text sampling**
+- 🔹 **Bidirectional LSTM and GRU architectures**
+- 🔹 **Attention-based sequence modeling**
+- 🔹 **Transformer-based language models**
+- 🔹 **Larger and domain-diverse text corpora**
