@@ -135,9 +135,9 @@ The model is trained on a quote-based textual corpus containing 3,038 records. A
 
 ## 🔮 Future Scope
 
-🔹 **Top-K probabilistic predictions**
-🔹 **Temperature-based text sampling**
-🔹 **Bidirectional LSTM and GRU architectures**
-🔹 **Attention-based sequence modeling**
-🔹 **Transformer-based language models**
+🔹 **Top-K probabilistic predictions**  
+🔹 **Temperature-based text sampling**  
+🔹 **Bidirectional LSTM and GRU architectures**  
+🔹 **Attention-based sequence modeling**  
+🔹 **Transformer-based language models**  
 🔹 **Larger and domain-diverse text corpora**
