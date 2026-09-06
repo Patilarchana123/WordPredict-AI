@@ -112,15 +112,15 @@ The model is trained on a quote-based textual corpus containing 3,038 records. A
 
 ## ✨ Key Features
 
-- 🔹 **Context-aware next-word prediction**
-- 🔹 **NLP-based text preprocessing and tokenization**
-- 🔹 **Sequential data construction for language modeling**
-- 🔹 **Word embedding representation**
-- 🔹 **LSTM-based sequence learning**
-- 🔹 **Softmax-based probabilistic word prediction**
-- 🔹 **Multi-word text generation**
-- 🔹 **Saved model and tokenizer for inference**
-- 🔹 **Interactive Streamlit deployment**
+🔹 **Context-aware next-word prediction**  
+🔹 **NLP-based text preprocessing and tokenization**  
+🔹 **Sequential data construction for language modeling**  
+🔹 **Word embedding representation**  
+🔹 **LSTM-based sequence learning**  
+🔹 **Softmax-based probabilistic word prediction**  
+🔹 **Multi-word text generation**  
+🔹 **Saved model and tokenizer for inference**  
+🔹 **Interactive Streamlit deployment**
 
 
 ## 🛠️ Tech Stack
@@ -135,9 +135,9 @@ The model is trained on a quote-based textual corpus containing 3,038 records. A
 
 ## 🔮 Future Scope
 
-- 🔹 **Top-K probabilistic predictions**
-- 🔹 **Temperature-based text sampling**
-- 🔹 **Bidirectional LSTM and GRU architectures**
-- 🔹 **Attention-based sequence modeling**
-- 🔹 **Transformer-based language models**
-- 🔹 **Larger and domain-diverse text corpora**
+🔹 **Top-K probabilistic predictions**
+🔹 **Temperature-based text sampling**
+🔹 **Bidirectional LSTM and GRU architectures**
+🔹 **Attention-based sequence modeling**
+🔹 **Transformer-based language models**
+🔹 **Larger and domain-diverse text corpora**
