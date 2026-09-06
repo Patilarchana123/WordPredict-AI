@@ -27,6 +27,7 @@ short
 
 ## 🔄 Architecture & Workflow
 
+```text
                     Text Corpus
                         │
                         ▼
@@ -55,6 +56,7 @@ short
                         │
                         ▼
               Streamlit Deployment
+```
 
 ## 🧠 Model Architecture
 
