@@ -24,6 +24,7 @@ life is too
 
 Output:
 short
+```
 
 ## 🔄 Architecture & Workflow
 
